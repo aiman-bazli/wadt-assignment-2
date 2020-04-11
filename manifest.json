@@ -6,12 +6,12 @@
     "icons": [
       {
         "src": "/img/logo/192.jpeg",
-        "type": "image/png",
+        "type": "image/jpeg",
         "sizes": "192x192"
       },
       {
         "src": "/img/logo/512.jpeg",
-        "type": "image/png",
+        "type": "image/jpeg",
         "sizes": "512x512"
       }
     ],
