@@ -2,6 +2,7 @@
     "short_name": "WADT Blog",
     "name": "WADT AS Blog",
     "description": "Blog for WADT AS",
+    "orientation": "portrait-primary",
     "icons": [
       {
         "src": "/images/icons-192.png",
