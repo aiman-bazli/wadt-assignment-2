@@ -5,13 +5,13 @@
     "orientation": "portrait-primary",
     "icons": [
       {
-        "src": "/img/logo/192.jpeg",
-        "type": "image/jpeg",
+        "src": "/img/logo/192.png",
+        "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/img/logo/512.jpeg",
-        "type": "image/jpeg",
+        "src": "/img/logo/512.png",
+        "type": "image/png",
         "sizes": "512x512"
       }
     ],
