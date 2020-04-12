@@ -1,7 +1,8 @@
 var APP_PREFIX = 'WADT-Blog-0'     
 var VERSION = 'version_01'              
 var CACHE_NAME = APP_PREFIX + VERSION
-var URLS = [                            
+var URLS = [   
+  '/wadt-assignment-2/',                         
   '/wadt-assignment-2/js/active.js',
   '/wadt-assignment-2/js/bootstrap.min.js',
   '/wadt-assignment-2/js/jquery-2.2.4.min.js',
@@ -18,7 +19,8 @@ var URLS = [
   '/wadt-assignment-2/style.css',
   '/wadt-assignment-2/about.html',
   '/wadt-assignment-2/blog.html',
-  '/wadt-assignment-2/index.html'
+  '/wadt-assignment-2/index.html',
+  '/wadt-assignment-2/icons'
 ]
 
 self.addEventListener('fetch', function (e) {

@@ -5,19 +5,19 @@
     "orientation": "portrait-primary",
     "icons": [
       {
-        "src": "img/logo/192.png",
+        "src": "/wadt-assignment-2/img/logo/192.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "img/logo/512.png",
+        "src": "/wadt-assignment-2/img/logo/512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
     ],
     "start_url": "/wadt-assignment-2/index.html",
     "background_color": "#fff",
-    "display": "standalone",
-    "scope": "/",
+    "display": "fullscreen",
+    "scope": "/wadt-assignment-2/",
     "theme_color": "#007bff"
   }
