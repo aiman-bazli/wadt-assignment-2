@@ -359,12 +359,11 @@
     <script src="js/active.js"></script>
 
     <script>
-        // register ServiceWorker, remember to use absolute path!
-        if (navigator.serviceWorker) {
-          navigator.serviceWorker.register('/wadt-assignment-2/sw.js', {scope: '/wadt-assignment-2/'})
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register('/js/serviceWorker.js')
+            .then((reg) => console.log('service worker registered',reg))
+            .catch((err) =>console.log('service worker not registered',err));
         }
-        
-        // --- Application code here ---
     </script>
 </body>
 
