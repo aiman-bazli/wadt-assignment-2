@@ -2,7 +2,17 @@ var APP_PREFIX = 'WADT-Blog-0'
 var VERSION = 'version_01'              
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [   
-  '/wadt-assignment-2/',                         
+  '/wadt-assignment-2/',   
+  '/wadt-assignment-2/style.css',
+  '/wadt-assignment-2/about.html',
+  '/wadt-assignment-2/blog.html',
+  '/wadt-assignment-2/index.html',        
+  '/wadt-assignment-2/css/animate.css',
+  '/wadt-assignment-2/css/bootstrap.min.css',
+  '/wadt-assignment-2/css/font-awesome.min.css',
+  '/wadt-assignment-2/css/magnific-popup.css',
+  '/wadt-assignment-2/css/owl.carousel.min.css',
+  '/wadt-assignment-2/css/responsive.css',              
   '/wadt-assignment-2/js/active.js',
   '/wadt-assignment-2/js/bootstrap.min.js',
   '/wadt-assignment-2/js/jquery-2.2.4.min.js',
@@ -10,16 +20,6 @@ var URLS = [
   '/wadt-assignment-2/js/plugins.js',
   '/wadt-assignment-2/js/plugins.js',
   '/wadt-assignment-2/js/popper.js',
-  '/wadt-assignment-2/css/animate.css',
-  '/wadt-assignment-2/css/bootstrap.min.css',
-  '/wadt-assignment-2/css/font-awesome.min.css',
-  '/wadt-assignment-2/css/magnific-popup.css',
-  '/wadt-assignment-2/css/owl.carousel.min.css',
-  '/wadt-assignment-2/css/responsive.css',
-  '/wadt-assignment-2/style.css',
-  '/wadt-assignment-2/about.html',
-  '/wadt-assignment-2/blog.html',
-  '/wadt-assignment-2/index.html',
   '/wadt-assignment-2/icons'
 ]
 
