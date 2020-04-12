@@ -3,6 +3,11 @@
     "name": "WADT AS Blog",
     "description": "Blog for WADT AS",
     "orientation": "portrait-primary",
+    "start_url": "/wadt-assignment-2/index.html",
+    "background_color": "#fff",
+    "display": "fullscreen",
+    "scope": "/wadt-assignment-2/",
+    "theme_color": "#007bff",
     "icons": [
       {
         "src": "/wadt-assignment-2/img/logo/192.png",
@@ -14,10 +19,6 @@
         "type": "image/png",
         "sizes": "512x512"
       }
-    ],
-    "start_url": "/wadt-assignment-2/index.html/",
-    "background_color": "#fff",
-    "display": "fullscreen",
-    "scope": "/wadt-assignment-2/",
-    "theme_color": "#007bff"
+    ]
+
   }
