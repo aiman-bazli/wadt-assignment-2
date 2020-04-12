@@ -357,6 +357,15 @@
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+
+    <script>
+        // register ServiceWorker, remember to use absolute path!
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.register('/wadt-assignment-2/sw.js', {scope: '/wadt-assignment-2/'})
+        }
+        
+        // --- Application code here ---
+    </script>
 </body>
 
 </html>

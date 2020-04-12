@@ -1,9 +1,24 @@
-var APP_PREFIX = 'ApplicationName_'     // Identifier for this app (this needs to be consistent across every cache update)
-var VERSION = 'version_01'              // Version of the off-line cache (change this value everytime you want to update cache)
+var APP_PREFIX = 'ApplicationName_'     
+var VERSION = 'version_01'              
 var CACHE_NAME = APP_PREFIX + VERSION
-var URLS = [                            // Add URL you want to cache in this list.
-  '/{repository}/',                     // If you have separate JS/CSS files,
-  '/{repository}/index.html'            // add path to those files here
+var URLS = [                            
+  '/wadt-assignment-2/js/active.js',
+  '/wadt-assignment-2/js/bootstrap.min.js',
+  '/wadt-assignment-2/js/jquery-2.2.4.min.js',
+  '/wadt-assignment-2/js/map-active.js',
+  '/wadt-assignment-2/js/plugins.js',
+  '/wadt-assignment-2/js/plugins.js',
+  '/wadt-assignment-2/js/popper.js',
+  '/wadt-assignment-2/css/animate.css',
+  '/wadt-assignment-2/css/bootstrap.min.css',
+  '/wadt-assignment-2/css/font-awesome.min.css',
+  '/wadt-assignment-2/css/magnific-popup.css',
+  '/wadt-assignment-2/css/owl.carousel.min.css',
+  '/wadt-assignment-2/css/responsive.css',
+  '/wadt-assignment-2/style.css',
+  '/wadt-assignment-2/about.html',
+  '/wadt-assignment-2/blog.html',
+  '/wadt-assignment-2/index.html'
 ]
 
 // Respond with cached resources
