@@ -1,4 +1,4 @@
-var APP_PREFIX = 'WADT-Blog-0'     
+var APP_PREFIX = 'WADTBlog'     
 var VERSION = 'version_01'              
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [   
